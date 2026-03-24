@@ -9,7 +9,7 @@ import re
 st.set_page_config(page_title="Lumina BI (Gemini Edition)", layout="wide")
 
 # REPLACE THIS WITH YOUR GEMINI API KEY
-GEMINI_API_KEY = "AIzaSyBfYAq8ukp7RpzW2gD_CKW9CqAThDmj4mA"
+GEMINI_API_KEY = "YOUR GEMINI API KEY"
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
